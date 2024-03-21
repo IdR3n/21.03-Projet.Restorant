@@ -1,8 +1,8 @@
 import React from "react";
 
-function Reservation(){
+function Reservation() {
     return(
-        <div>wtf</div>
+        <div>Nice job</div>
     )
 }
 

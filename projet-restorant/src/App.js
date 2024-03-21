@@ -1,6 +1,7 @@
 import React from 'react';
-import './App.css';
 import Reservation from './Compenents/Reservation.jsx';
+import './App.css';
+
 function App() {
   return (
     <div className="App">
