@@ -1,0 +1,11 @@
+/*For Carouselle*/
+.Carouselles{
+    width: 100%;
+    height: 500px;
+}
+
+.Carouselles img {
+    width: 100%;
+    height: auto;
+    opacity: 70%;
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 function Reservation() {
     return(
-        <div>Nice job</div>
+        <div></div>
     )
 }
 
