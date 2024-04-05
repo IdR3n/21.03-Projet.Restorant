@@ -1,5 +1,7 @@
 /*For Carouselle*/
 .Carouselles{
+    position: absolute;
+    margin-top: 114px;
     width: 100%;
     height: 500px;
 }
@@ -9,3 +11,31 @@
     height: auto;
     opacity: 70%;
 }
+
+/*MenuArea Code*/
+
+.CustomCard{
+    border:none !important;
+    width: 100%;
+    height: 300px;
+}
+
+.customButton{
+    margin-top: 60px;
+    background-color:red;
+    color: white;
+}
+/* Choraire css*/
+.footer-container {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;
+    background-image: url('../image/FooterRestaurant.jpg'); /* Arka plan resminizin yolu */
+    background-size: 2200px 800px; /* Resmin tam genişlik ve yüksekliği kaplamasını sağlar */
+    color: rgb(0, 0, 0); /* Metin rengi */
+    background-repeat: no-repeat;
+  }
+  
+  .footer-contact, .footer-hours {
+    width: 50%;
+  }

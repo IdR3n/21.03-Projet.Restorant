@@ -3,6 +3,8 @@ import Reservation from './Compenents/Reservations.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbars from './Compenents/NavBars.jsx';
 import Carouselle from './Compenents/Carouselle.jsx';
+import Menuler from './Compenents/MenuArea.jsx';
+import Choraire from './Compenents/ContactHoraire.jsx';
 import './App.css';
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
         </div>
         <div className='Carouselles'>
           <Carouselle></Carouselle>
+          <Menuler></Menuler>
+          <Choraire></Choraire>
         </div>
         <Reservation></Reservation>
       </header>
