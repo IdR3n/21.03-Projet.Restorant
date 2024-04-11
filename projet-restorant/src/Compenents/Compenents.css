@@ -28,14 +28,33 @@
 /* Choraire css*/
 .footer-container {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
+    position: relative; /* Pozisyon ayarı */
     padding: 20px;
-    background-image: url('../image/FooterRestaurant.jpg'); /* Arka plan resminizin yolu */
-    background-size: 2200px 800px; /* Resmin tam genişlik ve yüksekliği kaplamasını sağlar */
-    color: rgb(0, 0, 0); /* Metin rengi */
+    color: rgb(0, 0, 0);
+}
+
+/* Yeni arka plan resmi div'i için stil */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/FooterRestaurant.jpg');
+    opacity: 0.5;
+    background-size: cover; /* veya istediğin boyut */
     background-repeat: no-repeat;
-  }
-  
-  .footer-contact, .footer-hours {
+    z-index: -1; /* İçeriklerin önünde olmaması için */
+}
+
+.footer-content {
+    z-index: 2; /* Arka planın önünde olmasını sağlar */
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer-contact, .footer-hours {
     width: 50%;
-  }
+}

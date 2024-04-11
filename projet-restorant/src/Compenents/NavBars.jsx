@@ -30,10 +30,10 @@ function Navbars() {
       </Navbar>
       {/* Sidebar menü */}
       <div className={`sidebar ${isOpen ? 'open' : ''}`} style={{zIndex: 1}}><br />
-        <a href="#">Page D'acceuil</a>
-        <a href="#">Menu</a>
-        <a href="#">Reservation</a>
-        <a href="#">Contact</a>
+        <a href="/">Page D'acceuil</a>
+        <a href="/">Menu</a>
+        <a href="/">Reservation</a>
+        <a href="/">Contact</a>
       </div>
     </div>
   );
